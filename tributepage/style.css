@@ -1,0 +1,78 @@
+.tribute-page {
+     background-image: linear-gradient( to bottom right, rgb(214, 202, 255),rgb(255, 134, 221));
+    text-align: center;
+    text-decoration: dashed;
+  }
+  
+  
+  h1 {
+    color:#333;
+    margin: 0 auto 0px auto;
+    text-decoration: overline;
+  }
+  
+  
+  img {
+    width: 700px;
+    border-radius: 0%;
+    margin: 5px 0;
+    border: black;
+  }
+  
+  a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .title{
+    text-decoration: underline;
+  }
+
+  #headline {
+    margin: 50px 0;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  ul {
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  li {
+    margin: 16px 0;
+  }
+
+  ul1{
+    max-width: 400px;
+    margin: 0 auto 30px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+
+  .foot{
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .p{
+    max-width: 950px;
+    margin: 0 auto 30px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+
+  blockquote{
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+
+  cite{
+    float:right;
+  }
