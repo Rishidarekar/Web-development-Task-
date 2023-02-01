@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+   width: 100%;
+    height: 100%;
+   background: #f6f9fa;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding:2% ;
+
+}
+
+.calculator{
+    background:#1c1c1c;
+    box-shadow: 0px 12px 18px rgba(0 0 0/10%);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    border-radius: 12px;
+
+}
+
+.btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    outline: none;
+    border: none;
+    padding: 5%;
+    height: 62px;
+    width: 60px;
+    display: flex;
+    margin: 2%;
+    font-weight:500;
+    font-size: large;
+    background-color: #505050;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    
+
+
+
+}
+::selection{
+    background-color: #1c1c1c;
+}
+textarea{
+    margin: 2% 3%;
+    resize: none;
+    background: none;
+    outline: none;
+    border: 10;
+    color: #fff;
+    font-size: 1.8rem;
+    height: 120px;
+}
+button.operator{
+    background-color: #ff9500; 
+    font-size: larger;
+}
+button .divide:after{
+    content: "÷";
+    position: absolute;
+    background-color: #ff9500;
+}
+button .multiply:after{
+    content: "x";
+    position: absolute;
+    background: #ff9500;
+}
+button.operator1{
+  background-color:#ff9500;
+}
+button.operator2{
+    background-color: #d4d4d2;
+    color: #1c1c1c;
+
+}
+
